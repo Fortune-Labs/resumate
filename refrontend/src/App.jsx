@@ -6,8 +6,8 @@ import Dashboard from './pages/dashboard/dashboard'
 import CV from './pages/cv/cv'
 import Resume from './pages/resume/resume'
 import Jobs from './pages/job/job'
-// import Education from './pages/education/education'
-// import Blog from './pages/blog/blog'
+import Education from './pages/education/education'
+import Blog from './pages/blog/blog'
 import Footer from './components/footer/footer'
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
             <Route exact path='/dashboard' element={<Dashboard/>}/>
             <Route exact path='/cv' element={<CV/>}/>
             <Route exact path='/resume' element={<Resume/>}/>
-            <Route exact path='/jobs' element={<Jobs/>}/>
-            {/* <Route exact path='/education' element={<Education/>}/> */}
-            {/* <Route exact path='/blog' element={<Blog/>}/>  */}
+            <Route exact path='/job' element={<Jobs/>}/>
+            <Route exact path='/education' element={<Education/>}/>
+            <Route exact path='/blog' element={<Blog/>}/> 
           </Routes>
         <Footer/>
       </Router>
