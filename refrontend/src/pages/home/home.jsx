@@ -1,49 +1,5 @@
-import React from 'react'
-import Card from './card'
-import Slider from "react-slick";
-import { templates } from '../../data/Templates';
 
 const home = () => {
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: false,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: false,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: false,
-        dots: true
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-  };
-  
   return (
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       {/* Hero Section */}
@@ -83,20 +39,51 @@ const home = () => {
       </section>
 
       {/* Templates */}
-      <section className='w-full bg-[#E9F8F3B2] py-32'>
-        <div className='md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0'>
-            <div className='py-4'>
-              <h1 className='py-3 text-3xl font-bold'>Most Popular <span className='text-[#20B486]'>Templates</span></h1>
-              <p className='text-[#6D737A]'>Various versions have evolved over the years, sometimes by accident.</p>
-            </div>
-            
-            <Slider {...settings} className='px-5'>
-              {templates.map((template,i)=>
-                <div key={i}>
-                  <Card template={template} />
-                </div> ) }
-            </Slider>     
+      <section className='w-full bg-[#E9F8F3B2] py-32 p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 '>
+
+        <div className="rounded overflow-hidden shadow-lg">
+          <img className="w-full" src="/images/resumesample.png" alt="Mountain"/>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Mountain</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+             <button type="button">Click to use</button>
+          </div>
         </div>
+        
+        <div className="rounded overflow-hidden shadow-lg">
+          <img className="w-full" src="/images/resumesample.png" alt="River"/>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">River</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#summer</span>
+          </div>
+        </div>
+
+        <div className="rounded overflow-hidden shadow-lg">
+          <img className="w-full" src="/images/resumesample.png" alt="Forest"/>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Forest</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#fall</span>
+          </div>
+        </div>
+
       </section>
     </div>
   );

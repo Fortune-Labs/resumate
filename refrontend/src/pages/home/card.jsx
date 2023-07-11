@@ -1,4 +1,4 @@
-import React from 'react'
+
 // import { blog } from '../../assets/blog.png'
 import StarRating from './srating'
 
