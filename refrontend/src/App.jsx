@@ -8,6 +8,8 @@ import Resume from './pages/resume/resume'
 import Jobs from './pages/job/job'
 import Education from './pages/education/education'
 import Blog from './pages/blog/blog'
+import Login from './pages/accregister/login'
+import Register from './pages/accregister/register'
 import Footer from './components/footer/footer'
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
             <Route exact path='/job' element={<Jobs/>}/>
             <Route exact path='/education' element={<Education/>}/>
             <Route exact path='/blog' element={<Blog/>}/> 
+            <Route exact path='/login' element={<Login/>}/> 
+            <Route exact path='/register' element={<Register/>}/> 
           </Routes>
         <Footer/>
       </Router>
