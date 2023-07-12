@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 // import {logo,lock, hamburgerMenu, close} from '../assets'
 
@@ -22,10 +23,10 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <button className="flex justify-between items-center  bg-transparent  px-6 gap-2">
             <img src="./svgs/lock.svg" />
-            Login
+            <a href="/login">login</a>
           </button>
-          <button className="px-8 py-3 rounded-md bg-[#20B486] text-white font-bold">
-            Sign Up For Free
+          <button className="px-8 py-3 rounded-md bg-gray-500 text-white">
+            <a href="/register">Sign Up For Free</a> 
           </button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
