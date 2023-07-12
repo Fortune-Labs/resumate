@@ -1,4 +1,4 @@
-import loginp from '../../assets/images/login2.jpg'
+import loginp from '../../assets/svg/login.svg'
 import google from '../../assets/svg/google.svg'
 import apple from '../../assets/svg/apple.svg'
 const login = () => {
