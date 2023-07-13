@@ -1,6 +1,6 @@
 ## ResuMate 
 
-I developed Resumate as a portfolio project for the foundations section at ALX Software Engineering. ResuMate is a web application designed to help individuals craft professional and visually appealing resumes with ease. With its user-friendly interface and comprehensive features, ResuMate enables users to showcase their skills, experiences, and achievements in a simply 1 page resume, increasing their chances of standing out among other candidates in the job market.
+I developed Resumate as a portfolio project for the foundations section at ALX Software Engineering. ResuMate is a web application designed to help individuals craft professional and visually appealing resumes with ease.
 
 Please note that this work is still in progress.
 
@@ -9,7 +9,7 @@ Please note that this work is still in progress.
 
 <h1 align="center">Resumate</h1>
 <p align="center">
-  A [statically-typed] build your resume application.
+  A friendly resume builderapplication.
 </p>
 
 <p align="center">
@@ -18,23 +18,18 @@ Please note that this work is still in progress.
 
 ## Description :bulb:
 
-IdeaDog is a social media web application for sharing ideas.
+Resumate is a resume builder web application.
 
-We have all had those moments, those sudden bursts of inspiration where we think - "wow, that is simply a _great_ idea" - but know we will never follow up. Now, instead of losing those ideas, share them with the world!
+Strive not to be a success, but rather to be of value. "Build your skills not your resume" - Yes but resume's are required for job applications. Getting all your skills on paper can be stressfull. We have all had those moments, where exclaim - "mm, here is a job oppening, I need a resume" - but know we end not writing a resume to an expectation. Now, instead of getting stuck with ideas, use resumate as your resume builder. 
 
-### Why statically-typed?
 
-Our kind of question.
 
-The front-end of IdeaDog is built in React, with TypeScript, while the back-end runs on Rust. In our book, TypeScript + Rust = The Ultimate Statically-Typed Web App!
+## Resume Idea Craft
 
-## Medium Blog Posts :newspaper:
+For a more in-depth description of Resuate desgn thinking as well as an overview of its tech stack and development process, I have included google doc. 
 
-For a more in-depth description of IdeaDog as well as an overview of its tech stack and development process, we have written a series of articles on Medium. You can read them at the links below:
+- [Introducing Resumate](https://docs.google.com/document/d/1hxAhsk4ow8YoI0C14NAuudbsIwOxW2xoYqVGN3NCG0M/edit?usp=sharing)
 
-- [Introducing IdeaDog — A \[Statically-Typed\] Social Ideas Platform](https://medium.com/@bdov_/introducing-ideadog-a-statically-typed-social-ideas-platform-aeb3a6dcf04f)
-- [IdeaDog Back-End Overview](https://medium.com/@Ostoyae/ideadog-back-end-overview-a0d66d780bea)
-- [Building a Modern React Web Application — The IdeaDog Front-End](https://medium.com/@bdov_/building-a-modern-react-web-application-the-ideadog-front-end-bc56dd3ca4b6)
 
 ## Tech Stack :poodle:
 
