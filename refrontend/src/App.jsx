@@ -20,7 +20,8 @@ import Showhide from './components/showhide/showhide'
 function App() {
   return (
     <div>
-      <Router basename="/resumate">
+      {/* basename="/resumate */}
+      <Router>
         <Showhide>
         <Navbar/>
         </Showhide>
