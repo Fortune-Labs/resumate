@@ -20,7 +20,7 @@ import Showhide from './components/showhide/showhide'
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="https://github.com/Fortune-Labs/resumate">
         <Showhide>
         <Navbar/>
         </Showhide>
