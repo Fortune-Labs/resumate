@@ -1,11 +1,27 @@
+// import React from 'react';
+// import { useState, useEffect } from 'react';
+import axios from 'axios';
+
 import loginp from '../../assets/svg/login.svg'
 import google from '../../assets/svg/google.svg'
 import apple from '../../assets/svg/apple.svg'
+
+// Default axios vars- CSRF tokens gets sent with requests we make to django
+axios.defaults.xsrfCookieName = 'csrftoken';
+axios.defaults.xsrfHeaderName = 'X-CSRFToken';
+axios.defaults.withCredentials = true;
+
+// Client instance with base URL - We only type in the Django URL once
+// const client = axios.create({
+//   baseURL: "http://127.0.0.1:8000"
+// });
+
+
 const login = () => {
-    return (
-        
+
+
+    return (      
     <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-5 md:mx-0 md:my-0">
-     
       <div className="md:w-1/3 max-w-sm">
         <img
           src={loginp} alt="login image"/>

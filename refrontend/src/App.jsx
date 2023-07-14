@@ -1,6 +1,7 @@
 import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
 import './App.css'
-import Navbar from './components/header/navbar'
+
+//pages 
 import Home from './pages/home/home'
 import Dashboard from './pages/dashboard/dashboard'
 import CV from './pages/cv/cv'
@@ -10,13 +11,20 @@ import Education from './pages/education/education'
 import Blog from './pages/blog/blog'
 import Login from './pages/accregister/login'
 import Register from './pages/accregister/register'
+
+//components
+import Navbar from './components/header/navbar'
 import Footer from './components/footer/footer'
+import Showhide from './components/showhide/showhide'
 
 function App() {
   return (
     <div>
       <Router>
+        <Showhide>
         <Navbar/>
+        </Showhide>
+
           <Routes>
             <Route exact path='/' element={<Home/>}/>
             <Route exact path='/dashboard' element={<Dashboard/>}/>
