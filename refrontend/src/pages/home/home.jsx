@@ -53,8 +53,8 @@ const home = () => {
           <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
             <img src={step1Image} alt="Step 1" className="step-image" />
             <div className="step-content">
-              <h3>Step 1: Pick a Template or Upload a CV</h3>
-              <p>
+              <h3 className="font-bold text-center mt-2">Pick a Template or Upload a CV</h3>
+              <p className="bg-gray-100 rounded-lg p-4 text-justify">
                 Choose a pre-designed template from our collection or upload your
                 existing CV to get started.
               </p>
@@ -63,8 +63,8 @@ const home = () => {
           <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
             <img src={step2Image} alt="Step 2" className="step-image" />
             <div className="step-content">
-              <h3>Step 2: Create CV</h3>
-              <p>
+              <h3 className="font-bold text-center mt-2">Create CV</h3>
+              <p className="bg-gray-100 rounded-lg p-4 text-justify">
                 Fill in the necessary information, including your personal details,
                 work experience, education, and skills to create your CV.
               </p>
@@ -73,8 +73,8 @@ const home = () => {
           <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
             <img src={step3Image} alt="Step 3" className="step-image" />
             <div className="step-content">
-              <h3>Step 3: Select Output Format</h3>
-              <p>
+              <h3 className="font-bold text-center mt-2">Select Output Format</h3>
+              <p className="bg-gray-100 rounded-lg p-4 text-justify">
                 Choose the desired output format for your CV, such as PDF, Word
                 document, or HTML.
               </p>
@@ -83,8 +83,8 @@ const home = () => {
           <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
             <img src={step4Image} alt="Step 4" className="step-image" />
             <div className="step-content">
-              <h3>Step 4: Download CV</h3>
-              <p>
+              <h3 className="font-bold text-center mt-2">Download CV</h3>
+              <p className="bg-gray-100 rounded-lg p-4 text-justify">
                 Once you're satisfied with your CV, click the download button to
                 save it to your device in the chosen format.
               </p>
