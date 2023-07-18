@@ -8,10 +8,10 @@ import { templates } from "./templateImports";
 import TemplateSlide from "./templateSlide";
 
 import cvtemp from "../../assets/images/cvtemone.jpg";
-import step1Image from "../../assets/images/step1image.png";
-import step2Image from "../../assets/images/step2image.png";
-import step3Image from "../../assets/images/step3image.png";
-import step4Image from "../../assets/images/step4image.png";
+import step1Image from "../../assets/images/step1Image.png";
+import step2Image from "../../assets/images/step2Image.png";
+import step3Image from "../../assets/images/step3Image.png";
+import step4Image from "../../assets/images/step4Image.png";
 
 
 const home = () => {
