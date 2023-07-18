@@ -11,6 +11,8 @@ import About from './pages/about/about'
 import Login from './pages/accregister/login'
 import Register from './pages/accregister/register'
 import Dashboard from './pages/dashboard/dashboard'
+import TemplatePage from './pages/templatespage/templatespage'
+
 
 //components
 import Navbar from './components/header/navbar'
@@ -36,6 +38,7 @@ function App() {
             <Route exact path='/login' element={<Login/>}/> 
             <Route exact path='/register' element={<Register/>}/> 
             <Route exact path='/dashboard' element={<Dashboard/>}/>
+            <Route path="/templatespage/:id" component={<TemplatePage/>} />
           </Routes>
         <Footer/>
       </Router>
