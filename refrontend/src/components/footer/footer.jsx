@@ -14,12 +14,11 @@ const footer = () => {
         <div className="col-span-2">
           <img src={logo} className="h-[25px]" />
           <h3 className="text-2xl font-bold mt-10">Contact Us</h3>
-          <h3 className="py-2 text-[#6D737A]">Call : +123 400 123</h3>
+          <h3 className="py-2 text-[#6D737A]">Call : +233247296728</h3>
           <h3 className="py-2 text-[#6D737A]">
-            Praesent nulla massa, hendrerit <br></br> vestibulum gravida in,
-            feugiat auctor felis.
+            Please call or email us if you have any question.
           </h3>
-          <h3 className="py-2 text-[#363A3D]">Email: example@mail.com</h3>
+          <h3 className="py-2 text-[#363A3D]">Email:fortunelabs100@gmail.com </h3>
 
           <div className="flex gap-2 py-4">
             <button className="bg-blue-500 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
