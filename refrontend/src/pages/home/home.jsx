@@ -1,5 +1,9 @@
 import cvtemp from "../../assets/images/cvtemone.jpg";
 import { Button } from "@material-tailwind/react";
+import step1Image from "../../assets/images/step1image.png";
+import step2Image from "../../assets/images/step2image.png";
+import step3Image from "../../assets/images/step3image.png";
+import step4Image from "../../assets/images/step4image.png";
 const home = () => {
   return (
     // w-full mx-auto max-w-7xl px-2 sm:px-6 lg:px-8
@@ -34,12 +38,6 @@ const home = () => {
           </div>
         </div>
       </section>
-      {/* more details */}
-      <section>
-        <div className="w-fill bg-gray">
-          <h1>More details is fun</h1>
-        </div>
-      </section>
 
       {/* How to Section */}
       <section className="w-full bg-red py-24">
@@ -47,18 +45,52 @@ const home = () => {
           <h1 className="text-center text-2xl font-bold text-[#536E96]">
             Build your resume online in 4 simple steps.
           </h1>
-          <p className="text-center  text-[#536E96] text-xl">
+          <p className="text-center  text-[#536E96] text-xl pt-6">
             Making a resume with our resume maker is fast and easy. We'll help
             you build a professional job application in minutes.
           </p>
-          <div className="flex justify-center py-8 md:gap-8 ">
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-2">
-              <img src="./svgs/logo.svg" />
-              <img src="./svgs/logo.svg" />
-              <img src="./svgs/logo.svg" />
-              <img src="./svgs/logo.svg" />
+        <div className="steps flex flex-wrap justify-center md:justify-between pt-8">
+          <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
+            <img src={step1Image} alt="Step 1" className="step-image" />
+            <div className="step-content">
+              <h3>Step 1: Pick a Template or Upload a CV</h3>
+              <p>
+                Choose a pre-designed template from our collection or upload your
+                existing CV to get started.
+              </p>
             </div>
           </div>
+          <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
+            <img src={step2Image} alt="Step 2" className="step-image" />
+            <div className="step-content">
+              <h3>Step 2: Create CV</h3>
+              <p>
+                Fill in the necessary information, including your personal details,
+                work experience, education, and skills to create your CV.
+              </p>
+            </div>
+          </div>
+          <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
+            <img src={step3Image} alt="Step 3" className="step-image" />
+            <div className="step-content">
+              <h3>Step 3: Select Output Format</h3>
+              <p>
+                Choose the desired output format for your CV, such as PDF, Word
+                document, or HTML.
+              </p>
+            </div>
+          </div>
+          <div className="step mb-8 md:w-1/2 lg:w-1/4 p-4">
+            <img src={step4Image} alt="Step 4" className="step-image" />
+            <div className="step-content">
+              <h3>Step 4: Download CV</h3>
+              <p>
+                Once you're satisfied with your CV, click the download button to
+                save it to your device in the chosen format.
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
 
