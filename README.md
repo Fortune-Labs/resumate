@@ -34,7 +34,7 @@ For a more in-depth description of Resuate desgn thinking as well as an overview
 ## Tech Stack :poodle:
 
 <p align="center">
-  <img src="https://github.com/Fortune-Labs/resumate/blob/dev/assets/Resumeate-stack.png"
+  <img src="https://github.com/Fortune-Labs/resumate/blob/master/assets/Resumeate-stack.png"
        alt="Resumate Tech Stack"
        width="600"
   />
